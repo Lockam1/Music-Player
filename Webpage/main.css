@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: linear-gradient(180deg, #012b35 0%, #00172C 100%), linear-gradient(36deg, #FAFF00 0%, #800000 73%), linear-gradient(110deg, #001D38 30%, #FBFF49 100%), linear-gradient(140deg, #61FF00 0%, #040EFF 72%), linear-gradient(127deg, #FFB800 0%, #02004D 100%), linear-gradient(140deg, #6DCA4C 28%, #CD0000 100%), radial-gradient(100% 100% at 70% 0%, #7A3B00 0%, #49B8A4 100%);
+    background-blend-mode: overlay, color-dodge, difference, difference, difference, color-dodge, normal; */
+    background: linear-gradient(180.45deg, #FF0055 0%, #333 55.74324324324324%, #000066 64%);
+    height: 100vh;
+  }
+
+  #scrollingBox{
+    overflow: Scroll;
+    
+    width:100%;
+    height:50vh;
+  }
+  #scrollingBox::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  #scrollingBox {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  #mainBody{
+
+  }
+  #title{
+ 
+  }
+  {
+    float:center;
+  }
